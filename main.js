@@ -32,13 +32,17 @@ function topFunction() {
   /* end begin Back to Top button  */
   const swiper = new Swiper('.swiper', {
 	// Optional parameters
-	direction: 'vertical',
+	// direction: 'gorizontal',
 	loop: true,
   
 	// If we need pagination
+	// pagination: {
+	//   el: '.swiper-pagination',
+	// },
+
 	pagination: {
-	  el: '.swiper-pagination',
-	},
+		el: ".swiper-pagination",
+	  },
   
 	// Navigation arrows
 	navigation: {
@@ -51,6 +55,8 @@ function topFunction() {
 	  el: '.swiper-scrollbar',
 	},
   });
+
+
 
 
 

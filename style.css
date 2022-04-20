@@ -111,24 +111,59 @@ header a{
 } */
 .videowrapper {
     flex: 1 1 0;
-     background-image: url(./i/file.gif);
+     /* background-image: url(./i/file.gif); */
      background-repeat: no-repeat;
      background-size: 100%;
      background-position: top center;
+     overflow: hidden;
 }
 .videowrapper img{
     height: 100%;
     object-fit: none;
     width: auto;
 }
+.swimg1{
+    background-image: url(./i/instructia.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: var(--m);
+}
+.swimg2{
+    background-image: url(./i/instructia2.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: var(--m);
+}
+.swimg3{
+    background-image: url(./i/instructia3.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: var(--m);
+}
 /* блоки */
 .block{
     text-align: center;
     width: 100%; 
 }
+.productwrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .productblock{
     padding:  var(--xs) 0;
-    width: 100%;  
+    width: 100%; 
+    flex: 1 0 30%;
+    min-width: 350px;
+    /* font-size: var(--fs-xs); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: var(--xs) var(--xs);   
 }
 .productblock a{
    
@@ -218,7 +253,7 @@ h4 {
 }
 .swiper {
     width: 100%;
-    height: 55vh;
+    height: 400px;
 }
 .si{
     background-image: url(.i/instructia.jpg);
@@ -250,8 +285,12 @@ footer{
     height: 15px;
     border-top: 2px solid #222222;
     border-right: 2px solid #222222;
-    margin: 60px;  
+    margin: 60px;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
 } 
 nav{
     /* padding: var(--xs); */
@@ -284,6 +323,14 @@ nav{
 	transform: translate(-50%, -50%);
 	background-color: #29282d;
 	transition: all 0.5s;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
 }
 .menu-btn span:nth-of-type(2) {
 	top: calc(50% - 5px);
@@ -296,14 +343,17 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-    /* height: 35%; */
-	padding: 5px;
-    background: white;
+	/*height: 35%;
+	*/padding: 5px;
+	background: white;
 	transform: translateY(-120%);
-	transition: transform 0.5s; 
-    text-align: center;
-    font-weight: bold;
-   
+	transition: transform 0.5s;
+	text-align: center;
+	font-weight: bold;
+	-webkit-transform: translateY(-120%);
+	-moz-transform: translateY(-120%);
+	-ms-transform: translateY(-120%);
+	-o-transform: translateY(-120%);
 }
 .menu.active {
 	transform: translateY(0);

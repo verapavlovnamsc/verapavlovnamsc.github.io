@@ -99,6 +99,12 @@ header a{
     display: flex;
     flex-direction: column;
 }
+/* .productcoll{
+    height: 91vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+} */
 .videowrapper {
     flex: 1 1 0;
      background-image: url(./i/file.gif);
@@ -219,6 +225,7 @@ h4 {
 footer{
     background: linear-gradient(to top, #8AA1B8, #D2DBE2);
     height: 20%;
+    margin-top: var(--m);
 }
 .footercontent{
     display: flex;

@@ -134,7 +134,7 @@ header a{
     padding:  var(--xxs) 0;
     text-align: left;
     word-wrap: break-word;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .textlast{

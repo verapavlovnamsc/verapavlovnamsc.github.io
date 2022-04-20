@@ -96,11 +96,8 @@ header a{
 .main{
     height: 91vh;
     min-width: 100%;
-   
-    /* color: white; */
     display: flex;
     flex-direction: column;
-    /* align-items: center;  */
 }
 .videowrapper {
     flex: 1 1 0;
@@ -191,13 +188,12 @@ h4 {
     float: right;
 }
 .expert {
-    padding-top: var(--s);
-    padding-bottom: var(--s);
+    padding-top: var(--xxs);
+    padding-bottom: var(--xxs);
     /* height: 10rem; */
 }
 .expert p{
-    text-align: left;
-   
+    text-align: left;   
 }
 .expert h3{
     text-align: left;
@@ -286,7 +282,7 @@ nav{
     height: 35%;
 	padding: 5px;
     background: white;
-	transform: translateY(-110%);
+	transform: translateY(-120%);
 	transition: transform 0.5s; 
     text-align: center;
     font-weight: bold;

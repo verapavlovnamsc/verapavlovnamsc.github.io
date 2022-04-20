@@ -147,6 +147,10 @@ h2 {
     /* margin: 0 auto; */
     text-align: center;
 }
+
+.inst{
+    background-image: url(./i/instructia.jpg);
+}
 .tech{
     padding: var(--xs) var(--xs);
 }

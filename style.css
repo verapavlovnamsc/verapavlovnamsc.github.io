@@ -133,6 +133,8 @@ header a{
 .text{
     padding:  var(--xxs) 0;
     text-align: left;
+    word-wrap: break-word;
+    white-space: nowrap;
 }
 
 .textlast{
@@ -226,6 +228,7 @@ footer{
     background: linear-gradient(to top, #8AA1B8, #D2DBE2);
     height: 20%;
     margin-top: var(--m);
+    font-size: var( --fs-xs);
 }
 .footercontent{
     display: flex;

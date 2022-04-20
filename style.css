@@ -94,7 +94,7 @@ header a{
 }  
 /* обложка */
 .main{
-    height: 80vh;
+    height: 91vh;
     min-width: 100%;
    
     /* color: white; */
@@ -167,7 +167,7 @@ h4 {
     margin-right: var(--xxs); 
     margin-bottom: var(--xxs); 
     margin-top: var(--xxs); 
-    width: 45%;
+    width: 35%;
 }
 .imgsquaregreen{
     float: right; 
@@ -180,7 +180,7 @@ h4 {
     float: left; 
     margin-right: var(--xxs); 
     /* margin-bottom: var(--xxs);  */
-    width: 30%;
+    width: 10rem;
 }
 
 .expert text{
@@ -189,7 +189,7 @@ h4 {
 .expert {
     padding-top: var(--s);
     padding-bottom: var(--s);
-    height: 40%;
+    /* height: 10rem; */
 }
 .expert p{
     text-align: left;
@@ -335,11 +335,11 @@ nav{
   /* media  */
 
 
-  @media screen and (device-width: 700px) {  
+  /* @media screen and (device-width: 700px) {  
     .menu .active{
         height: 600px;
     }    
-  }
+  } */
 
 
 

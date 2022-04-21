@@ -1,7 +1,7 @@
 document.write(`
  <header class="sp">
-            <a href="index.html"><div class="arrow">          
-            </div></a>
+           <div class="arrow" onclick="goBack()">          
+            </div>
             <div class="menu">
                 <nav>
                     <li><a href="index.html">AZENUA</a></li>

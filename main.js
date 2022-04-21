@@ -81,3 +81,8 @@ function topFunction() {
 // 	  el: '.swiper-scrollbar',
 // 	},
 //   });
+
+
+function goBack() {
+	window.history.back();
+}

@@ -31,6 +31,7 @@ body, h1, h2, h3, p, ul, li {
 html {
     font-size: clamp(var(--fs-xs), calc((1vh + 1vw)), 20px);
     line-height: 1.2;
+    text-align: justify;
 }
 body {
     font-family: 'Montserrat';
@@ -79,7 +80,7 @@ header a{
     padding: var(--xxs);
 }
 .logo{
-    width: var(--l);
+    width: 6rem;
 }
 .previous{
     font-size: 110%;
@@ -100,6 +101,13 @@ nav{
     /* padding: var(--xs); */
     background-color: white;
     /* z-index: 1000; */
+}
+nav li{
+    /* padding: var(--xxs); */
+   
+}
+.fh{
+    padding-top: var(--xxs);
 }
 .menu{
     z-index: 1;
@@ -140,7 +148,7 @@ video {
     width: auto;
 }
 .swimg1{
-    background-image: url(./i/instructia.jpg);  
+    background-image: url(./i/inst.gif);  
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -180,7 +188,7 @@ video {
 } */
 /* блоки */
 .block{
-    text-align: center;
+    /* text-align: center; */
     width: 100%; 
 }
 .productwrapper{
@@ -198,7 +206,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align:center;
+    /* text-align:center; */
     /* padding: var(--xs) var(--xs);    */
 }
 .productblock a{
@@ -210,6 +218,7 @@ video {
     text-align: left;
     word-wrap: break-word;
     /* white-space: nowrap; */
+    font-size: var(--fs-s);
 }
 
 .textlast{
@@ -226,6 +235,7 @@ h2 {
     /* width: 70%; */
     /* margin: 0 auto; */
     text-align: center;
+    font-size: var(--fs-m);
 }
 
 .inst{
@@ -242,22 +252,22 @@ h4 {
     padding:  var(--xs) 0;
 }
 .imgblock2{
-    width: 88%;  
-    padding:  var(--xs) 0;
+    /* width: 88%;   */
+    padding:  var(--xs) var(--s);
     margin: 0 auto;
 }
 .imgsquare{
     float: left; 
     margin-right: var(--xxs); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--xxs); 
+    margin-top: var(--s); 
     width: 30%;
 }
 .imgsquaregreen{
     float: right; 
     margin-left: var(--xxs); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--xxs); 
+    margin-top: var(--s); 
     width: 45%;
 }
 .imgkosmetolog{
@@ -288,7 +298,7 @@ h4 {
 .columns{
     max-width: 100ch;
     margin: 0 auto;
-    font-size: var(--fs-xs);
+    /* font-size: var(--fs-xs); */
 }
 .niz{
     padding: var(--s);

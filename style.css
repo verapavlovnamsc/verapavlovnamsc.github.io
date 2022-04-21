@@ -96,6 +96,22 @@ header a{
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
 }  
+nav{
+    /* padding: var(--xs); */
+    background-color: white;
+    /* z-index: 1000; */
+}
+.menu{
+    z-index: 1;
+
+}
+video {
+    z-index: -1;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* обложка */
 .main{
     height: 91vh;
@@ -111,11 +127,12 @@ header a{
 } */
 .videowrapper {
     flex: 1 1 0;
-     /* background-image: url(./i/file.gif); */
-     background-repeat: no-repeat;
-     background-size: 100%;
-     background-position: top center;
-     overflow: hidden;
+    /* background-image: url(./i/file.gif); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    overflow: hidden;
+    z-index: -1;
 }
 .videowrapper img{
     height: 100%;
@@ -150,6 +167,14 @@ header a{
 .swiper-button-next::after {
     color: #29282d; 
 }
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+/* iframe{
+    width: 1700px;
+    height: 900px;
+} */
 /* .swiper-pagination-bullet-active::after{
     color: #000; 
 } */
@@ -162,18 +187,19 @@ header a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: var(--s);
 }
 .productblock{
     padding:  var(--xs) 0;
     width: 100%; 
     flex: 1 0 30%;
-    min-width: 100%;
+    min-width: 320px;
     /* font-size: var(--fs-xs); */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align:center;
-    padding: var(--xs) var(--xs);   
+    /* padding: var(--xs) var(--xs);    */
 }
 .productblock a{
    
@@ -225,7 +251,7 @@ h4 {
     margin-right: var(--xxs); 
     margin-bottom: var(--xxs); 
     margin-top: var(--xxs); 
-    width: 35%;
+    width: 30%;
 }
 .imgsquaregreen{
     float: right; 
@@ -249,7 +275,7 @@ h4 {
 }
 .expert {
     padding-top: var(--xxs);
-    padding-bottom: var(--xxs);
+    padding-bottom: var(--s);
     /* height: 10rem; */
 }
 .expert p{
@@ -257,13 +283,21 @@ h4 {
 }
 .expert h3{
     text-align: left;
+    margin-bottom: var(--xxs);
+}
+.columns{
+    max-width: 100ch;
+    margin: 0 auto;
+    font-size: var(--fs-xs);
 }
 .niz{
     padding: var(--s);
 }
-.swiper {
-    width: 100%;
-    height: 400px;
+.niz a{
+    padding: .5em;
+}
+video {
+    z-index: -1;
 }
 .si{
     background-image: url(.i/instructia.jpg);
@@ -278,7 +312,7 @@ h4 {
 
 footer{
     background: linear-gradient(to top, #8AA1B8, #D2DBE2);
-    height: 20%;
+    /* height: 20%; */
     margin-top: var(--m);
     font-size: var( --fs-xs);
 }
@@ -302,12 +336,6 @@ footer{
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
 } 
-nav{
-    /* padding: var(--xs); */
-    background-color: white;
-    z-index: 1000;
-}
-
 .footercontent div{
     padding: var(--xs);
 
@@ -354,8 +382,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	/*height: 35%;
-	*/padding: 5px;
+	/*height: 35%;*/padding: 5px;
 	background: white;
 	transform: translateY(-120%);
 	transition: transform 0.5s;

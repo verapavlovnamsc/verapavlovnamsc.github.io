@@ -1,7 +1,6 @@
 document.write(`
  <header class="sp">
-            <a href="index.html"><div class="arrow">
-          
+            <a href="index.html"><div class="arrow">          
             </div></a>
             <div class="menu">
                 <nav>

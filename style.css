@@ -48,10 +48,6 @@ a {
 img{
     width: 100%;
 }
-img:hover {
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); */
-  }
 video {  
     width: 100%;
     padding-bottom:  var(--s);
@@ -147,6 +143,16 @@ header a{
     height: 400px;
     padding: var(--m);
 }
+.swiper-button-prev::after {
+    color: #29282d; 
+}
+
+.swiper-button-next::after {
+    color: #29282d; 
+}
+/* .swiper-pagination-bullet-active::after{
+    color: #000; 
+} */
 /* блоки */
 .block{
     text-align: center;
@@ -299,6 +305,7 @@ footer{
 nav{
     /* padding: var(--xs); */
     background-color: white;
+    z-index: 1000;
 }
 
 .footercontent div{

@@ -13,8 +13,8 @@ document.write(
             </div>
             <div class="niz">
             Москва, <br>
-            улица Лапикова, 5                
+            Научный проезд, 5                
             </div>                       
         </div>         
    </footer>`
-   );
+);

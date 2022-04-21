@@ -148,7 +148,7 @@ video {
     width: auto;
 }
 .swimg1{
-    background-image: url(./i/inst.gif);  
+    background-image: url(./i/instructia.jpg);  
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -218,7 +218,7 @@ video {
     text-align: left;
     word-wrap: break-word;
     /* white-space: nowrap; */
-    font-size: var(--fs-s);
+    /* font-size: var(--fs-s); */
 }
 
 .textlast{

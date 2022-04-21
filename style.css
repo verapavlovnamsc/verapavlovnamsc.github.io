@@ -193,7 +193,7 @@ video {
     padding:  var(--xs) 0;
     width: 100%; 
     flex: 1 0 30%;
-    min-width: 320px;
+    min-width: 290px;
     /* font-size: var(--fs-xs); */
     display: flex;
     flex-direction: column;

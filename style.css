@@ -102,10 +102,7 @@ nav{
     background-color: white;
     /* z-index: 1000; */
 }
-nav li{
-    /* padding: var(--xxs); */
-   
-}
+
 .fh{
     padding-top: var(--xxs);
 }
@@ -261,7 +258,7 @@ h4 {
     margin-right: var(--xxs); 
     margin-bottom: var(--xxs); 
     margin-top: var(--s); 
-    width: 30%;
+    width: 10rem;
 }
 .imgsquaregreen{
     float: right; 

@@ -38,7 +38,7 @@ body {
     color: #29282d;
     font-weight: normal;
     overflow-x: hidden;
-    font-size: 17px;
+    font-size: 16px;
 }
 a {
     text-decoration: none;
@@ -121,7 +121,7 @@ nav{
     /* z-index: 1000; */
 }
 .fh{
-    padding-top: var(--xxs);
+    padding-bottom: 1.1em;
 }
 .menu{
     z-index: 1;
@@ -149,7 +149,7 @@ video {
 } */
 .videowrapper {
     flex: 1 1 0;
-    /* background-image: url(./i/file.gif); */
+    background-image: url(./i/file.gif);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;

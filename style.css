@@ -39,6 +39,7 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     font-size: 18px;
+    
 }
 a {
     text-decoration: none;
@@ -210,6 +211,8 @@ video {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: var(--xxs);
+    text-align: left;
+    word-break: break-all;
 }
 .productblock{
     padding:  var(--xxs) 0;
@@ -232,7 +235,8 @@ video {
 .text{
     padding:  var(--xxs) 0;
     text-align: left;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
+    word-break: break-all;
     /* white-space: nowrap; */
     /* font-size: var(--fs-s); */
 }

@@ -56,6 +56,9 @@ video {
 .sp{
     padding: 0 var(--s);
 }
+.razdel{
+    height: 4em;
+}
 .wrapper  {
     height: 100vh;
     overflow-y: scroll;

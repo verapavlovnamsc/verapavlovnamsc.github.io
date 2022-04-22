@@ -32,6 +32,9 @@ html {
     font-size: clamp(var(--fs-xs), calc((1vh + 1vw)), 20px);
     line-height: 1.2;
     text-align: justify;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 body {
     font-family: 'Montserrat';
@@ -212,7 +215,9 @@ video {
     flex-wrap: wrap;
     gap: var(--xxs);
     text-align: left;
-    word-break: break-all;
+    /* -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto; */
 }
 .productblock{
     padding:  var(--xxs) 0;
@@ -236,7 +241,10 @@ video {
     padding:  var(--xxs) 0;
     text-align: left;
     /* word-wrap: break-word; */
-    word-break: break-all;
+    /* word-break: break-all; */
+    /* -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto; */
     /* white-space: nowrap; */
     /* font-size: var(--fs-s); */
 }

@@ -65,7 +65,7 @@ video {
   flex-direction: column;
 }
 .razdel{
-    height: 4em;
+    height: 4em;d
 }
 .wrapper  {
     height: 100vh;
@@ -217,9 +217,11 @@ video {
     /* text-align:center; */
     /* padding: var(--xs) var(--xs);    */
 }
-.productblock a{
-   
+.productblock a{   
     text-decoration: underline;
+}
+.productblock img{   
+    margin-bottom: .5em;
 }
 .text{
     padding:  var(--xxs) 0;

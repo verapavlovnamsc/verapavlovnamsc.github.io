@@ -95,7 +95,8 @@ header a{
     padding: var(--xxs);
 }
 .logo{
-    width: 7rem;
+    width: 6rem;
+    /* padding-left: .1em; */
 }
 .previous{
     font-size: 110%;

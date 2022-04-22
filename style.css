@@ -309,6 +309,7 @@ h4 {
 .expert h3{
     text-align: left;
     margin-bottom: var(--xxs);
+    font-size: 18px;
 }
 .columns{
     max-width: 100ch;

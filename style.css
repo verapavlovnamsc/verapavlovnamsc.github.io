@@ -59,6 +59,11 @@ video {
 .mi{
     margin: 0 auto;
 }
+.markets{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .razdel{
     height: 4em;
 }

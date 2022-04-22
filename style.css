@@ -32,9 +32,9 @@ html {
     font-size: clamp(var(--fs-xs), calc((1vh + 1vw)), 20px);
     line-height: 1.2;
     text-align: justify;
-    -moz-hyphens: auto;
+    /* -moz-hyphens: auto;
     -webkit-hyphens: auto;
-    -ms-hyphens: auto;
+    -ms-hyphens: auto; */
 }
 body {
     font-family: 'Montserrat';
@@ -63,7 +63,7 @@ video {
 }
 .mi{
     margin: 0 auto;
-    padding: var(--xxs)
+    padding: .7em;
 }
 .markets{
     display: flex;

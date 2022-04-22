@@ -279,7 +279,7 @@ h4 {
     float: left; 
     margin-right: var(--s); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--xxs); 
+    margin-top: var(--xs); 
     width: 10rem;
 }
 .imgsquaregreen{

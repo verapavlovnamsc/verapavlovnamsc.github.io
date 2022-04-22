@@ -61,11 +61,15 @@ video {
 }
 .markets{
     display: flex;
-  justify-content: center;
-  flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+}
+.hkog{
+    font-size: 1.8rem;
+
 }
 .razdel{
-    height: 4em;d
+    height: 4em;
 }
 .wrapper  {
     height: 100vh;
@@ -91,7 +95,7 @@ header a{
     padding: var(--xxs);
 }
 .logo{
-    width: 6rem;
+    width: 7rem;
 }
 .previous{
     font-size: 110%;
@@ -113,7 +117,6 @@ nav{
     background-color: white;
     /* z-index: 1000; */
 }
-
 .fh{
     padding-top: var(--xxs);
 }
@@ -230,7 +233,6 @@ video {
     /* white-space: nowrap; */
     /* font-size: var(--fs-s); */
 }
-
 .textlast{
     margin-bottom: var(--m);
 }
@@ -263,21 +265,21 @@ h4 {
 }
 .imgblock2{
     /* width: 88%;   */
-    padding:  var(--xs) var(--s);
+    padding:  .2em var(--s);
     margin: 0 auto;
 }
 .imgsquare{
     float: left; 
-    margin-right: var(--xxs); 
+    margin-right: var(--s); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--s); 
+    margin-top: var(--xxs); 
     width: 10rem;
 }
 .imgsquaregreen{
     float: right; 
     margin-left: var(--xxs); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--s); 
+    margin-top: var(--xs); 
     width: 45%;
 }
 .imgkosmetolog{
@@ -364,7 +366,6 @@ footer{
     text-decoration: none;
     list-style-type: none;
 }
-
  /* burger */
 .menu-btn {
 	width: 30px;

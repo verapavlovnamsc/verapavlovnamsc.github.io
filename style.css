@@ -63,11 +63,13 @@ video {
 }
 .mi{
     margin: 0 auto;
+    padding: var(--xxs)
 }
 .markets{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: var(--l);
 }
 .hkog{
     font-size: 1.8rem;

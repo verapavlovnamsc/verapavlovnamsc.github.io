@@ -38,7 +38,7 @@ body {
     color: #29282d;
     font-weight: normal;
     overflow-x: hidden;
-    font-size: 16px;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -149,7 +149,7 @@ video {
 } */
 .videowrapper {
     flex: 1 1 0;
-    background-image: url(./i/file.gif);
+    /* background-image: url(./i/file.gif); */
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
@@ -275,7 +275,7 @@ h4 {
     float: left; 
     margin-right: var(--s); 
     margin-bottom: var(--xxs); 
-    margin-top: .3em; 
+    margin-top: var(--xxs); 
     width: 10rem;
 }
 .imgsquaregreen{

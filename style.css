@@ -56,6 +56,9 @@ video {
 .sp{
     padding: 0 var(--s);
 }
+.mi{
+    margin: 0 auto;
+}
 .razdel{
     height: 4em;
 }

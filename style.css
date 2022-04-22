@@ -38,6 +38,7 @@ body {
     color: #29282d;
     font-weight: normal;
     overflow-x: hidden;
+    font-size: 17px;
 }
 a {
     text-decoration: none;
@@ -90,6 +91,7 @@ header{
    justify-content: space-between;
    align-items: center; 
    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+   padding: 0 var(--xs);
 }
 header a{
     padding: var(--xxs);
@@ -147,7 +149,7 @@ video {
 } */
 .videowrapper {
     flex: 1 1 0;
-    background-image: url(./i/file.gif);
+    /* background-image: url(./i/file.gif); */
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
@@ -273,7 +275,7 @@ h4 {
     float: left; 
     margin-right: var(--s); 
     margin-bottom: var(--xxs); 
-    margin-top: var(--xxs); 
+    margin-top: .3em; 
     width: 10rem;
 }
 .imgsquaregreen{

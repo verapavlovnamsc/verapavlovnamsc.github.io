@@ -240,6 +240,8 @@ video {
 .text{
     padding:  var(--xxs) 0;
     text-align: left;
+    word-wrap: break-word;
+    hyphens: auto;
     /* word-wrap: break-word; */
     /* word-break: break-all; */
     /* -moz-hyphens: auto;

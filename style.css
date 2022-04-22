@@ -198,10 +198,10 @@ video {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: var(--s);
+    gap: var(--xxs);
 }
 .productblock{
-    padding:  var(--xs) 0;
+    padding:  var(--xxs) 0;
     width: 100%; 
     flex: 1 0 30%;
     min-width: 290px;

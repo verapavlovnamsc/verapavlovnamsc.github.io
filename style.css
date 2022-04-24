@@ -99,8 +99,6 @@ section {
 
 .wrapper {
   height: 100vh;
-  -ms-scroll-snap-type: y proximity;
-      scroll-snap-type: y proximity;
 }
 
 .scroll-snap {

@@ -418,25 +418,24 @@ video {
 .niz{
     padding: var(--s);
 }
-.niz a{
+.niz li{
     padding: .5em;
 }
 footer{
-    background: linear-gradient(to top, #8AA1B8, #D2DBE2);
-    /* height: 20%; */
+    background: linear-gradient(to top, #8AA1B8, #D2DBE2);   
     margin-top: var(--m);
-    /* font-size: var( --fs-xs); */
+    margin-right: var(--xxs);   
 }
 .footercontent{
     display: flex;
     justify-content: space-between;
-    gap: var(--s);
+    // gap: var(--s);
 }
 .footercontent a{
    text-decoration: underline;
 }
 .footercontent div{
-    padding: var(--xs);
+    padding: var(--xxs);
 
 }
 .footercontent li{

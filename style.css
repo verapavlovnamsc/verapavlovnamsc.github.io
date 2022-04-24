@@ -523,16 +523,15 @@ video {
   padding: var(--s);
 }
 
-.niz a {
+.niz li {
   padding: .5em;
 }
 
 footer {
   background: -webkit-gradient(linear, left bottom, left top, from(#8AA1B8), to(#D2DBE2));
   background: linear-gradient(to top, #8AA1B8, #D2DBE2);
-  /* height: 20%; */
   margin-top: var(--m);
-  /* font-size: var( --fs-xs); */
+  margin-right: var(--xxs);
 }
 
 .footercontent {
@@ -542,7 +541,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: var(--s);
 }
 
 .footercontent a {
@@ -550,7 +548,7 @@ footer {
 }
 
 .footercontent div {
-  padding: var(--xs);
+  padding: var(--xxs);
 }
 
 .footercontent li {

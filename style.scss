@@ -85,8 +85,8 @@ section{
 }
 .wrapper  {
     height: 100vh;
-    overflow-y: scroll;
-    -ms-scroll-snap-type: y proximity;
+    // overflow-y: scroll;
+    // -ms-scroll-snap-type: y proximity;
     scroll-snap-type: y proximity;
 }
 .scroll-snap {
@@ -416,7 +416,7 @@ video {
 }
 /*Footer*/ 
 .niz{
-    padding: var(--s);
+    padding: .8em;
 }
 .niz li{
     padding: .5em;
@@ -425,6 +425,7 @@ footer{
     background: linear-gradient(to top, #8AA1B8, #D2DBE2);   
     margin-top: var(--m);
     margin-right: var(--xxs);   
+    width: 100%;
 }
 .footercontent{
     display: flex;
@@ -434,10 +435,10 @@ footer{
 .footercontent a{
    text-decoration: underline;
 }
-.footercontent div{
-    // padding: var(--xxs);
+// .footercontent div{
+//     // padding: var(--xxs);
 
-}
+// }
 .footercontent li{
     text-decoration: none;
     list-style-type: none;

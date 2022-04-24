@@ -56,10 +56,6 @@ function topFunction() {
 	},
   });
 
-
-
-
-
 //   const swiper = new Swiper('.swiper', {
 // 	// Optional parameters
 // 	direction: 'vertical',
@@ -82,7 +78,7 @@ function topFunction() {
 // 	},
 //   });
 
-
+// 	// Back buttom
 function goBack() {
 	window.history.back();
 }

@@ -1,1 +1,0 @@
-# verapavlovnamsc.github.io

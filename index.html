@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collagen AZENUA</title>
     <link href="style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
@@ -14,17 +14,17 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="">
-            <div class="logo">
-            <img src="./i/logo.jpg"> 
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="./i/logo.jpg"></a>
             </div>
             <div class="menu">
                 <nav>
                     <li><a href="index.html">AZENUA</a></li>
-                    <li><a href="kollagen.html">Коллаген</a></li>
+                    <li><a href="collagen.html">Коллаген</a></li>
                     <li><a href="kigelia.html">Кигелия</a></li>
-                    <li><a href="koga.html">Влияние на кожу</a></li>
-                    <li><a href="gdekupit.html">Где купить?</a></li>
+                    <li><a href="skin.html">Влияние на кожу</a></li>
+                    <li><a href="wheretobuy.html">Где купить?</a></li>
                 </nav>
             </div>
             <div class="menu-btn">
@@ -35,18 +35,19 @@
         </header>
        
         <div class="main">  
-            <div class="videowrapper"> 
+            <div class="main__videowrapper"> 
                 <video autoplay="autoplay" muted loop playsinline>               
-                <source src="./i/vid.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="./v/vid.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                 </video> 
                 <!-- <img src="./i/file.gif"> -->
             </div>
             <h2>
-                <div class="fh">Технология <br><strong>Азенуа®</strong></div>
+                <div class="main_title">Технология <br><strong>Азенуа®</strong></div>
             </h2>
            
         </div> 
         <!-- Технология -->
+        <section>
         <div class="block sp container">     
             <div class="text">
             <p>Главный секрет продукта — в синергии двух компонентов, усиливающих действие друг друга: гидролизованного высококачественного бразильского коллагена и экстракта уникального растительного вещества кигелина, имеющего могофункциональное воздействие на кожу. 
@@ -54,7 +55,7 @@
             </p>
             </div>           
         </div> 
-        <div class="imgblock1">
+        <div class="imgfull">
             <img src="./i/techlogy.jpg">
         </div>   
         <div class="block sp container">     
@@ -65,8 +66,9 @@
             </p>
             </div>           
         </div> 
-       <div class="razdel"></div>
-         <!-- Продукт и его свойства -->
+        </section>
+               <!-- Продукт и его свойства -->
+         <section>
          <div class="block sp container">
             <h2>
                 <div>Продукт </div><div><strong>Азенуа®</strong></div>
@@ -74,7 +76,7 @@
            <div class="productwrapper">
             <div class="productblock">
                 <img src="./i/p1.jpg">
-                <p><strong>Коллаген:</strong> развеиваем мифы о «белке молодости» в лаборатории Azenua.</p> <p><a href="kollagen.html">Читать → </a>   
+                <p><strong>Коллаген:</strong> развеиваем мифы о «белке молодости» в лаборатории Azenua.</p> <p><a href="collagen.html">Читать → </a>   
                 </p>
             </div>
             <div class="productblock">
@@ -85,13 +87,15 @@
           
             <div class="productblock">
                 <img src="./i/p3.jpg">
-                <p><strong>Результат.</strong> Залог эффективного омоложения. Заставить кожу работать. Новый подход и реальный результат….</p><p><a href="koga.html">Читать → </a>   
+                <p><strong>Результат.</strong> Залог эффективного омоложения. Заставить кожу работать. Новый подход и реальный результат….</p><p><a href="skin.html">Читать → </a>   
                 </p>
             </div>  
             </div>          
-        </div>     
-        <div class="razdel"></div>
+        </div>    
+        </section> 
+        <!-- <div class="razdel"></div> -->
         <!-- Экспертное мнение -->
+        <section>
         <div class="block sp container">
             <h2>
             <div>Экспертное </div><div><strong>мнение</strong></div>
@@ -144,12 +148,10 @@
                     кожи.
                 </p>
             </div>
-            </div>
-
-            
-            
+            </div>         
         </div>  
-        <div class="razdel"></div>
+        </section>
+        <!-- <div class="razdel"></div> -->
         <!-- Инструкция по применению -->
         <div class="block">
             <h2>
@@ -186,9 +188,9 @@
                     <!-- </div>                      
                     </div>   -->
                 <div class="block">
-                    <div class="imgblock1">
-                <video autoplay="autoplay" muted loop playsinline>               
-                <source src="./i/v.mp4"   type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <div class="imgfull">
+                <video autoplay="autoplay" muted loop playsinline>              
+                <source src="./v/v.mp4"   type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                 </video> 
 
                 <!-- <img src="http://s96364gp.beget.tech/v.gif"> -->
@@ -197,13 +199,8 @@
 
                         <!-- <img src="./i/vid.mp4"> -->
                     </div>
-                </div>               
-                
-
-
-
-
-<!-- 
+                </div>     
+                <!-- 
                
                     <div class="block text sp container">
                     <p>Профилактический курс составляет 2-3 месяца, после чего делают перерыв на 90 дней. При необходимости прием повторяют. 
@@ -247,7 +244,7 @@
                     </ol>
                 </div>
         </div>             
-           <script src="footer.js">
+           <script src="partials/footer.js">
            </script>  
     </div>
     <script src="main.js"></script>

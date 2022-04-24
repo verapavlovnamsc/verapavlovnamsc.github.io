@@ -279,7 +279,7 @@ video {
     overflow: hidden;
     z-index: -1;
 }
-.videowrapper img{
+.main__videowrapper img{
     height: 100%;
     object-fit: none;
     width: auto;
@@ -314,14 +314,6 @@ video {
 .productblock img{   
     margin-bottom: .5em;
 }
-
-.kigelia p{
-    padding: var(--s) 0;
-}
-.tech{
-    padding: var(--xs) var(--xs);
-}
-
 /*Expert block*/ 
 .imgkosmetolog{
     float: left; 
@@ -414,6 +406,7 @@ video {
     flex-direction: column;
     padding: var(--l);
 }
+
 /*Footer*/ 
 .niz{
     padding: .8em;
@@ -435,10 +428,7 @@ footer{
 .footercontent a{
    text-decoration: underline;
 }
-// .footercontent div{
-//     // padding: var(--xxs);
 
-// }
 .footercontent li{
     text-decoration: none;
     list-style-type: none;

@@ -429,13 +429,13 @@ footer{
 .footercontent{
     display: flex;
     justify-content: space-between;
-    // gap: var(--s);
+ 
 }
 .footercontent a{
    text-decoration: underline;
 }
 .footercontent div{
-    padding: var(--xxs);
+    // padding: var(--xxs);
 
 }
 .footercontent li{

@@ -547,10 +547,6 @@ footer {
   text-decoration: underline;
 }
 
-.footercontent div {
-  padding: var(--xxs);
-}
-
 .footercontent li {
   text-decoration: none;
   list-style-type: none;

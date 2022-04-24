@@ -12,8 +12,8 @@ document.write(
                 </ul>
             </div>
             <div class="niz">
-            Москва, <br>
-            Научный проезд, 5                
+           <a href="https://yandex.ru/maps/213/moscow/geo/nauchny_proyezd/10049860/?ll=37.549494%2C55.654688&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=16"> Москва, <br>
+            Научный проезд, 5  </a>             
             </div>                       
         </div>         
    </footer>`

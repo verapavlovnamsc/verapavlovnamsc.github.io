@@ -13,13 +13,15 @@
     --fs-m: 2.6rem;
     --fs-l: 3.2rem;
     --fs-xl: 5.5rem;
+     /*отступы*/
     --xxs: .8rem;
     --xs: 1.3rem;
     --s: 2.2rem;
     --m: 3rem;
     --l: 5rem;
     --xl: 8rem;
-    --black: #111;
+     /*цвет*/
+    --black: #29282d;
 }
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -35,7 +37,7 @@ html {
 }
 body {
     font-family: 'Montserrat';
-    color: #29282d;
+    color: var(--black);
     font-weight: normal;
     overflow-x: hidden;
     font-size: 18px;    
@@ -126,16 +128,6 @@ h4 {
 .sp{
     padding: 0 var(--s);
 }
-.mi{
-    margin: 0 auto;
-    padding: .7em;
-}
-.markets{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: var(--l);
-}
 .hkog{
     font-size: 1.8rem;
 }
@@ -164,8 +156,8 @@ header li{
 .arrow {
     width: 15px;
     height: 15px;
-    border-top: 2px solid #29282d;
-    border-right: 2px solid #29282d;
+    border-top: 2px solid var(--black);
+    border-right: 2px solid var(--black);
     margin-right: 60px;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
@@ -179,8 +171,8 @@ nav{
 .menu{
     z-index: 1;
 }
- /* burger */
- .menu-btn {
+/* burger */
+.menu-btn {
 	width: 30px;
 	height: 30px;
 	position: relative;
@@ -216,8 +208,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	/*height: 35%;
-	*/padding: 5px;
+	padding: 5px;
 	background: white;
 	transform: translateY(-120%);
 	transition: transform 0.5s;
@@ -245,7 +236,7 @@ nav{
 .menu a {
     text-decoration: underline;
 }
-/* Меняем гамбургер иконку, когда меню открыто */
+/* Changing the hamburger icon when the menu is open */
 .menu-btn.active span:nth-of-type(1) {
     display: none;
 }
@@ -363,7 +354,8 @@ video {
     margin: 0 auto;
     /* font-size: var(--fs-xs); */
 }
-/*Slider*/ 
+
+/*Instruction*/ 
 .swimg1{
     background-image: url(./i/instructia.jpg);  
     background-size: cover;
@@ -402,14 +394,7 @@ video {
     background-image: url(./i/instructia.jpg);
 }
 
-/*Footer*/ 
-.niz{
-    padding: var(--s);
-}
-.niz a{
-    padding: .5em;
-}
-
+/*Distributors*/ 
 .dist{
     margin-bottom: var(--l);
 }
@@ -418,6 +403,24 @@ video {
     justify-content: center;
 }
 
+/*Markets*/ 
+.market{
+    margin: 0 auto;
+    padding: .7em;
+}
+.markets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: var(--l);
+}
+/*Footer*/ 
+.niz{
+    padding: var(--s);
+}
+.niz a{
+    padding: .5em;
+}
 footer{
     background: linear-gradient(to top, #8AA1B8, #D2DBE2);
     /* height: 20%; */

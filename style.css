@@ -73,7 +73,7 @@ video {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /* padding: var(--l); */
+    padding: var(--s);
   }
 
 .hkog{

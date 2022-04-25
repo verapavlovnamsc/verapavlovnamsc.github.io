@@ -80,8 +80,11 @@ video {
     font-size: var(--fs-s);
 
 }
+.instructia{
+    text-decoration: underline;
+}
 .razdel{
-    height: 3em;
+    height: 2.5em;
 }
 .wrapper  {
     height: 100vh;

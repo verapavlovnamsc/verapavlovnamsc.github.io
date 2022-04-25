@@ -31,7 +31,7 @@ body, h1, h2, h3, p, ul, li {
 html {
     font-size: clamp(var(--fs-s), calc((1vh + 1vw)), 20px);
     line-height: 1.2;
-    text-align: justify;
+    /* text-align: justify; */
 }
 body {
     font-family: 'Montserrat';
@@ -77,11 +77,11 @@ video {
   }
 
 .hkog{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
 
 }
 .razdel{
-    height: 4em;
+    height: 3em;
 }
 .wrapper  {
     height: 100vh;
@@ -223,6 +223,7 @@ video {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: var(--xxs);
+    text-align: left;;
 }
 .productblock{
     padding:  var(--xxs) 0;
